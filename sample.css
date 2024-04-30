@@ -1,0 +1,123 @@
+.Container{
+	width:100%;
+	margin:0;
+	background-color:#F1B998;
+	color:#020309;
+	border:1px;
+	border-style:solid;
+	line-height:100%;
+}
+.top{
+	padding:11px;
+	background-color:#E86010;
+	border-bottom-style:solid;
+	border-bottom-color:#6F2C04;
+}
+.imgl{
+	float:left;
+	width:70px;
+	height:70px;
+}
+.top h1{
+	padding:0px;
+	text-align:center;
+	color:#532103;
+	font-size:2.5em;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h3 {
+    font-size: 24px;
+    color: rgb(131, 79, 2);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+p {
+    font-size: 20px;
+    color: rgb(30, 9, 6);
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+#leftnav{
+	float:left;
+	width:190px;
+	margin:0;
+	padding:1em;
+}
+#leftnav ul li a{
+	text-decoration:underline;
+	background-color:transparent;
+	width:200px;
+	color:rgb(108, 39, 2);
+	font-weight:bold;
+	list-style:georgian;
+}
+#leftnav ul li a:hover{
+	background-color:rgb(214, 156, 93);
+}
+#content{
+	margin-left:200px;
+	border-left:2px solid rgb(0, 0, 0);
+	padding:1em;
+	max-width:100em;
+}
+#footer{
+	clear:both;
+	margin:0;
+	padding:2.5em;
+	color:#803300;
+	background-color:#ebb06c;
+	border-top:1px solid rgb(69, 6, 6);
+	text-align:center;
+	font-size:large;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+}
+
+
+.gallery img {
+    width: 100%; 
+    height: auto; 
+    border: 2px solid #ddd; 
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out; 
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05); 
+    border-color: #ff5733; 
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+
+.gallery-item {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item img:hover {
+    transform: scale(1.0);
+}
